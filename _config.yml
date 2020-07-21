@@ -28,7 +28,7 @@ twitter_username: yunchipang
 github_username:  yunchipang
 
 # Build settings
-remote_theme: poole/hyde
+theme: minima
 plugins:
   - jekyll-feed
 
