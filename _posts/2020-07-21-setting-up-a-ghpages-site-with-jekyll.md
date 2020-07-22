@@ -6,7 +6,6 @@ date: 2020-07-21
 author: yunchipang
 tags: jekyll github github-pages
 ---
-# 如何使用Jekyll建立個人GitHub Pages網頁
 
 前情提要：為了架設個人網站在GitHub Pages，我大概看遍所有網路上可找到的資料、並且前前後後刪除了約莫10次我的`username.github.io` repo，因為一旦follow某一個網路上的教學，做一做就會感覺出錯（或是做不下去），但我又不會修改或是把東西救回來，只好一直打掉重練。身為這樣一個尚在努力學習的程式新手，希望把我最後一次終於成功用Jekyll架出GitHub Pages的經驗寫出來，讓其他也還在程式之路上掙扎的新手們可以有個參考。
 
@@ -26,7 +25,7 @@ tags: jekyll github github-pages
 ## 步驟1. 於GitHub建立新的repo
 到自己的GitHub頁面，按下右上角的"+"符號，按下"New Repository"建立一個新的repo。因為我們這個repo是要拿來管理GitHub Pages的，所以名稱一定要取為`username.github.io`(username就是自己GitHub的使用者名稱，請自行代換）。
 
-![my helpful screenshot](/assets/2020-07-21-create-a-new-repo.png)
+![screenshot](/assets/images/2020-07-21-create-a-new-repo.png)
 
 ## 步驟2. 安裝GitHub Pages Gem
 GitHub Pages Gem是用來安裝在本機中用來啟用Jekyll的套件。打開terminal，用以下指令安裝，安裝完畢可以看一下版本訊息。

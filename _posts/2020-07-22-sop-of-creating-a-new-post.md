@@ -26,14 +26,21 @@ cd到存放此網站文件的工作目錄，在`_posts`的指定文件夾建立m
 
 接下就是自由地寫文章啦！多練習markdown語法就會愈寫愈熟練的。可以連續寫個好幾天，確定完成之後就存檔。
 
-## 2) git add & git commit
+## 2) 在本機檢查文章內容及排版
+雖然我們在編輯文章的時候可以用文字編輯器一邊寫一邊預覽（我是用MacDown），但是最後文章呈現在網頁上還是會有差異，因此存完md檔之後建議先在本機用local server看一下預期畫面喔！使用以下指令，follow terminal給的server address在瀏覽器裡檢查，看完用`ctrl+c`離開就可以了。
+
+	$ jekyll serve
+
+另外，為了避免之後看到錯誤還要回本機改、改完還要重新`add`, `commit`, `push`一次（有夠麻煩），建議大家寫完一篇文章就要慢慢讀一遍認真檢查有沒有錯字（我超常打錯字...）
+
+
+## 3) git指令 (add, commit, push)
 這個步驟是讓本機的git知道你已經新增了這篇文章，好習慣是下任何一個指令前都先用`$ git status`檢查一下現在的狀態。
 
 	$ git status
 	$ git add _posts/YYYY-MM-DD-title-of-the-post.md
 	$ git commit -m "add YYYY-MM-DD-title-of-the-post.md"
-
-## 3) git push
+	
 最後一個步驟就是將你新增的文章推到remote的github repo啦！
 
 	$ git push
@@ -47,4 +54,4 @@ cd到存放此網站文件的工作目錄，在`_posts`的指定文件夾建立m
 	$ git pull
 	$ git push
 
-> 雖然這篇文章主要是寫給自己看的（我是個金魚腦）但如果讀者也受用我會很開心的！每個人在往github推東西的時候都會遇到各式各樣的困難，所以今天份要提醒自己的事是：程式寫不出來不要對自己生氣，所有事情都是熟能生巧，可以多查資料、多看stackoverflow，google是你最好的朋友：）
+雖然這篇文章主要是寫給自己看的（我是個金魚腦）但如果讀者也受用我會很開心的！每個人在往github推東西的時候都會遇到各式各樣的困難，所以今天份要提醒自己的事是：程式寫不出來不要對自己生氣，所有事情都是熟能生巧，可以多查資料、多看stackoverflow，google是你最好的朋友：）
