@@ -8,7 +8,7 @@ tags: jekyll github github-pages
 ---
 為了防止自己老是忘記學會的事情，決定寫一篇如何製造新文章的步驟SOP，以後寫文章就靠這篇舊文章了，可絕對不要忘記步驟跟語法啊拜託！
 
-## 1) markdown檔案建立
+## step1: markdown檔案建立
 cd到存放此網站文件的工作目錄，在`_posts`的指定文件夾建立markdown檔案，命名為`YYYY-MM-DD-title-of-the-post.md`
 
 	$ cd yunchipang.github.io/_posts
@@ -26,15 +26,18 @@ cd到存放此網站文件的工作目錄，在`_posts`的指定文件夾建立m
 
 接下就是自由地寫文章啦！多練習markdown語法就會愈寫愈熟練的。可以連續寫個好幾天，確定完成之後就存檔。
 
-## 2) 在本機檢查文章內容及排版
+<br/>
+
+## step2: 在本機檢查文章內容及排版
 雖然我們在編輯文章的時候可以用文字編輯器一邊寫一邊預覽（我是用MacDown），但是最後文章呈現在網頁上還是會有差異，因此存完md檔之後建議先在本機用local server看一下預期畫面喔！使用以下指令，follow terminal給的server address在瀏覽器裡檢查，看完用`ctrl+c`離開就可以了。
 
 	$ jekyll serve
 
 另外，為了避免之後看到錯誤還要回本機改、改完還要重新`add`, `commit`, `push`一次（有夠麻煩），建議大家寫完一篇文章就要慢慢讀一遍認真檢查有沒有錯字（我超常打錯字...）
 
+<br/>
 
-## 3) git指令 (add, commit, push)
+## step3: git指令 (add, commit, push)
 這個步驟是讓本機的git知道你已經新增了這篇文章，好習慣是下任何一個指令前都先用`$ git status`檢查一下現在的狀態。
 
 	$ git status
