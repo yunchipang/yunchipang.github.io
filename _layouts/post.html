@@ -6,11 +6,13 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
 
+<!--to add tags-->
     {% if page.tags %}
       {% for tag in page.tags %}
       <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
       {% endfor %}
     {%- endif -%}
+<!--to add tags-->
 
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -29,6 +31,29 @@ layout: default
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
+
+
+<!--to add related posts-->
+  {% assign firstTag = page.tags | first %}
+  {% assign relatedCount = 0 %}
+
+  <div class="related-posts">
+    <h3>related posts:</h3>
+    {% assign firstTag = page.tags | first %}
+    {% assign relatedCount = 0 %}
+    {% for related in site.tags[firstTag] %}
+
+    {% unless page.permalink == related.permalink %}
+      {% assign relatedCount = relatedCount | plus: 1 %}
+      <a href="{{ site.baseurl }}{{related.permalink}}">{{ related.title }}</a><br>
+      {% endunless %}
+        
+      {% if relatedCount == 4 %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  </div>
+<!--to add related posts-->
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
