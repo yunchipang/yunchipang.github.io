@@ -4,7 +4,7 @@ title: 如何在Jekyll網頁底下加入Linkedin個人主頁連結
 permalink: /how-to-add-linkedin-profile-link-to-jekyll.html
 date: 2020-07-22
 author: yunchipang
-tags: jekyll github-pages linkedin
+tags: [jekyll, github-pages, linkedin]
 ---
 大家剛使用Jekyll建立網頁之後，第一件事就是設定`_config.yml`檔案了對吧？（詳請請見：[如何使用Jekyll建立個人GitHub Pages網頁](https://yunchipang.github.io/setting-up-a-ghpages-site-with-jekyll.html)），在`username.github.io`打開自己的網頁之後，捲捲捲到最下面，可以看到當初在`_config.yml`設定的`title`, `email`, `description`等等資訊都被完好地呈現出來了。
 

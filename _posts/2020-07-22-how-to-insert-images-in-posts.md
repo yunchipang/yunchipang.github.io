@@ -4,7 +4,7 @@ title: 如何在使用Jekyll寫網頁的時候插入圖片
 permalink: /how-to-insert-images-in-posts.html
 date: 2020-07-22
 author: yunchipang
-tags: jekyll github-pages
+tags: [jekyll, github-pages]
 ---
 終於在GitHub-Pages架好自己的Jekyll網站了嗎？下一步就是努力產製文章囉！但如果我今天想要在自己的學習筆記或是某教學文章中插入漂亮圖片或是螢幕截圖來幫助讀者理解該怎麼辦呢？
 

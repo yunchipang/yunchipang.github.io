@@ -4,7 +4,7 @@ title: 如何使用Jekyll建立個人GitHub Pages網頁
 permalink: /setting-up-a-ghpages-site-with-jekyll.html
 date: 2020-07-21
 author: yunchipang
-tags: jekyll github github-pages
+tags: [jekyll, github, github-pages]
 ---
 
 前情提要：為了架設個人網站在GitHub Pages，我大概看遍所有網路上可找到的資料、並且前前後後刪除了約莫10次我的`username.github.io` repo，因為一旦follow某一個網路上的教學，做一做就會感覺出錯（或是做不下去），但我又不會修改或是把東西救回來，只好一直打掉重練。身為這樣一個尚在努力學習的程式新手，希望把我最後一次終於成功用Jekyll架出GitHub Pages的經驗寫出來，讓其他也還在程式之路上掙扎的新手們可以有個參考。

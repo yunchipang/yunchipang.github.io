@@ -4,7 +4,7 @@ title: 在Jekyll創建的GitHub Pages寫一篇新文章的標準步驟
 permalink: /sop-of-creating-a-new-post.html
 date: 2020-07-22
 author: yunchipang
-tags: jekyll github github-pages
+tags: [jekyll, github-pages]
 ---
 為了防止自己老是忘記學會的事情，決定寫一篇如何製造新文章的步驟SOP，以後寫文章就靠這篇舊文章了，可絕對不要忘記步驟跟語法啊拜託！
 
