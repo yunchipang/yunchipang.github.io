@@ -3,6 +3,8 @@ layout: page
 title: about me
 permalink: /about/
 ---
+![profile pic](/assets/images/profile_pic_cropped.jpg){:height="50%" width="50%"}
+
 hello there, 
 
 <br/>
