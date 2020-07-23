@@ -51,14 +51,15 @@ tags: jekyll github-pages
 
 	![my screenshot](/assets/images/screenshot.jpg){:height="50%" width="50%"}
 
-如此一來圖片就會順利顯示為一開始的一半大小，當然這條指令的圖片長寬都是可以自己調整的，存檔後可以先打開`$ jekyll serve`的指令在本地瀏覽器預覽。（至於其他功能，再給我多一點時間研究，有新的發現會及時補上來這裡的！）
+如此一來圖片就會順利顯示為一開始的一半大小，當然這條指令的圖片長寬都是可以自己調整的，存檔後就可以打開`$ jekyll serve`的指令在本地瀏覽器預覽囉！覺得調整的滿意就跟之前一樣下`$ git`系列指令推上遠端就大功告成了。
 
-<br/>
+	$ jekyll serve   # ctrl+c 即可離開本地瀏覽器預覽狀態
+	$ git status
+	$ git add .
+	$ git commit -m "add image to xxx.md"
+	$ git push
 
-## step4: 存檔並且用local server檢查
-最後一個步驟就和平常建立文章一樣啦！按存檔之後在terminal下`$ jekyll serve`的指令，就可以在本機瀏覽器看看你的漂亮圖片有沒有跑出來啦！（溫馨提醒：`$ jekyll serve`要回到根目錄才可以下）
-
-	$ jekyll serve
+至於其他功能，再給我多一點時間研究，有新的發現會及時補上來這裡的！
 
 <br/>
 
