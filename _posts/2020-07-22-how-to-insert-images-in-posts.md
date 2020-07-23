@@ -46,8 +46,17 @@ tags: jekyll github-pages
 
 <br/>
 
-## step3: 存檔並且用local server檢查
-第三步驟就和平常建立文章一樣啦！按存檔之後在terminal下`$ jekyll serve`的指令，就可以在本機瀏覽器看看你的漂亮圖片有沒有跑出來啦！（溫馨提醒：`$ jekyll serve`要回到根目錄才可以下）
+## step3: 編輯圖片大小及位置
+如果想要簡單編輯自己插入的圖片大小及位置，也是可以直接在markdown檔案裡調整的。如果想要把圖片調整到預設的一半大小，直接在剛剛寫的檔案路徑後面指定：
+
+	![my screenshot](/assets/images/screenshot.jpg){:height="50%" width="50%"}
+
+如此一來圖片就會順利顯示為一開始的一半大小，當然這條指令的圖片長寬都是可以自己調整的，存檔後可以先打開`$ jekyll serve`的指令在本地瀏覽器預覽。（至於其他功能，再給我多一點時間研究，有新的發現會及時補上來這裡的！）
+
+<br/>
+
+## step4: 存檔並且用local server檢查
+最後一個步驟就和平常建立文章一樣啦！按存檔之後在terminal下`$ jekyll serve`的指令，就可以在本機瀏覽器看看你的漂亮圖片有沒有跑出來啦！（溫馨提醒：`$ jekyll serve`要回到根目錄才可以下）
 
 	$ jekyll serve
 
