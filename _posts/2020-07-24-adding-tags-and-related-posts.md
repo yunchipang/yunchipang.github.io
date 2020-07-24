@@ -12,6 +12,8 @@ tags: jekyll
 
 因為我可能會比較常寫跨領域的內容，`category`會讓我常常不知道這篇文章應該要歸於哪個分類，所以暫時只決定用`tags`讓自己方便管理。用哪一個、或是兩者都用完全取決於個人習慣跟喜好，自己開心就好！
 
+<br/>
+
 ## step1: 建立tags頁面
 在根目錄建立tags.md的新文件，使用以下這段程式碼：
 
@@ -51,7 +53,7 @@ permalink: /tags/
 - `title: tags` 即是顯示出來按鈕上的文字
 - `permalink: /tags/` 就是連結後綴
 
-至於front matter下方的html代碼，完全可以根據個人的喜好跟閱讀習慣做修改跟調整，這只是我自己喜歡的樣子：）
+這會是`tags`這一個`page`在網頁中呈現出來的樣子，可以自己微調。例如`<h2></h2>`可以自己改成`<h3></h3>`如果你覺得標題過大。
 
 <br/>
 
@@ -65,14 +67,15 @@ permalink: /tags/
 <!--to add tags-->
     {% if page.tags %}
       {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+      <a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
       {% endfor %}
     {%- endif -%}
 <!--to add tags-->
 ```
 {% endraw %}
 
-前後的`<!--to add tags-->`comment是我為了易於辨識每一段代碼各自的目的而加上去的，可以自行刪除。
+- {% raw %}`<a href="{{ site.baseurl }}/tags/#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>`{% endraw %} 這段是要設定每篇post上面的tags所連結的URL，因為我的tags頁面就叫做`/tags/`，所以設定成這樣。如果這個tag是`jekyll`，我的URL就會自動產生成[https://yunchipang.github.io/tags/#jekyll](https://yunchipang.github.io/tags/#jekyll)。
+- 前後的`<!--to add tags-->`comment是我為了易於辨識每一段代碼各自的目的而加上去的，不喜歡的話可以選擇性刪除。
 
 <br/>
 
