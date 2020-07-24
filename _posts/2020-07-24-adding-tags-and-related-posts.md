@@ -5,7 +5,6 @@ permalink: /adding-tags-and-related-posts.html
 date: 2020-07-24
 author: yunchipang
 tags: jekyll
-lcb: "{"
 ---
 當部落格文章跟學習筆記都愈寫愈多，我們總是會希望可以建立目錄、文章分類或是標籤來管理跟尋找文章對吧？這時候`category`跟`tags`這兩個功能就派上用場了！
 
