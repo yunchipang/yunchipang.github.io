@@ -9,16 +9,17 @@ permalink: /tags/
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
     {% endfor %}
   </div>
-  <hr/>
+  <br/>
   <div class="tags-expo-section">
     {% for tag in site.tags %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
     <ul class="tags-expo-posts">
       {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+        <!--<a class="post-title" href="{{ site.baseurl }}{{ post.url }}">-->
+        <a href="{{ site.baseurl }}{{ post.url }}">
       <li>
         {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
+      <!--<small class="post-date">{{ post.date | date_to_string }}</small>-->
       </li>
       </a>
       {% endfor %}
