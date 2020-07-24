@@ -1,7 +1,7 @@
 ---
 layout: default
-title: tag
-permalink: /tag
+title: tags
+permalink: /tags/
 ---
 <div class="tags-expo">
   <div class="tags-expo-list">
