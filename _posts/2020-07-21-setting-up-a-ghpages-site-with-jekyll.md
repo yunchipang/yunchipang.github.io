@@ -4,7 +4,7 @@ title: 如何使用Jekyll建立個人GitHub Pages網頁
 permalink: /setting-up-a-ghpages-site-with-jekyll.html
 date: 2020-07-21
 author: yunchipang
-tags: [jekyll, github, github-pages]
+tags: [jekyll, github]
 ---
 
 前情提要：為了架設個人網站在GitHub Pages，我大概看遍所有網路上可找到的資料、並且前前後後刪除了約莫10次我的`username.github.io` repo，因為一旦follow某一個網路上的教學，做一做就會感覺出錯（或是做不下去），但我又不會修改或是把東西救回來，只好一直打掉重練。身為這樣一個尚在努力學習的程式新手，希望把我最後一次終於成功用Jekyll架出GitHub Pages的經驗寫出來，讓其他也還在程式之路上掙扎的新手們可以有個參考。
@@ -29,46 +29,55 @@ tags: [jekyll, github, github-pages]
 ## step2: 安裝GitHub Pages Gem
 GitHub Pages Gem是用來安裝在本機中用來啟用Jekyll的套件。打開terminal，用以下指令安裝，安裝完畢可以看一下版本訊息。
 
-	$ gem install github-pages
-	$ github-pages --version
+```zsh
+$ gem install github-pages
+$ github-pages --version
+```
 
 如果沒有辦法安裝的話，可能是因為尚未安裝Ruby（前面有提到Jekyll是用Ruby跑的）所以請先安裝Ruby，如果你是Mac系統可以透過homebrew安裝。
 
-    $ brew install ruby
-    $ ruby --version
+```zsh
+$ brew install ruby
+$ ruby --version
+```
 
 <br/>
 
 ## step3: 在本地建立一個新的Jekyll專案
 轉換工作目錄到你要存放此專案的資料夾，建立一個新的jekyll site。這個資料夾可以自由取名，例如`blog`, `myblog`, `myawesomeblog`等等都可以，我為了方便管理乾脆取跟github repo一樣的名字`username.github.io`（跟前面說的一樣，username請代換成自己的）建立好工作目錄後，轉換位置到此工作目錄裡面。
 
-	$ jekyll new username.github.io
-	$ cd username.github.io
-
+```zsh
+$ jekyll new username.github.io
+$ cd username.github.io
+```
 
 <br/>
 
 ## step4: config.yml設定
-新的Jekyll專案建立之後，第一個要設定的檔案就是`config.yml`。`config.yml`這個檔案有點像是此jekyll專案的基礎設定，網站的`title`（網站標題）, `description`（網站描述）, `baseurl`（網站主網址：如果網站要建在`https://username.github.io/blog`的話，這裡要打`/blog`）,`url`（網站網址：即是`https://username.github.io`）還有連接到其他社群（例如twitter, github等等）的連結都要在這裡設定。
+新的Jekyll專案建立之後，第一個要設定的檔案就是`_config.yml`。`_config.yml`這個檔案有點像是此jekyll專案的基礎設定，網站的`title`（網站標題）, `description`（網站描述）, `baseurl`（網站主網址：如果網站要建在`https://username.github.io/blog`的話，這裡要打`/blog`）,`url`（網站網址：即是`https://username.github.io`）還有連接到其他社群（例如twitter, github等等）的連結都要在這裡設定。
 
 我自己設定的範例如下。
 
-	title: Yunchi Pang
-	email: yunchipang@gmail.com
-	description: final year student at CUHK | business analytics & quantitative marketing
-	baseurl: ""
-	url: "https://yunchipang.github.io"
-	twitter_username: yunchipang
-	github_username:  yunchipang
+```yaml
+title: Yunchi Pang
+email: yunchipang@gmail.com
+description: final year student at CUHK
+baseurl: ""
+url: "https://yunchipang.github.io"
+twitter_username: yunchipang
+github_username:  yunchipang
+```
 
 其實也不知道是不是真的這樣用，讓我再玩一下jekyll如果有新發現再回來更新！
 
 <br/>
 
 ## step5: 在本地預覽網站
-`config.yml`存好檔之後，在本地預覽網站，看是不是自己想要（或想像中）的樣子。
+`_config.yml`存好檔之後，在本地預覽網站，看是不是自己想要（或想像中）的樣子。
 
-	$ jekyll serve
+```zsh
+$ jekyll serve
+```
 
 上面的指令跑完之後，用瀏覽器打開[localhost:4000](https://localhost:4000)就可以看到你的網站現在的外觀了。做到這邊我們只剩最後一步，推到github上啦！
 
@@ -77,11 +86,13 @@ GitHub Pages Gem是用來安裝在本機中用來啟用Jekyll的套件。打開t
 ## step6: 推上GitHub
 先確認你現在的工作目錄是你之前創好的`username.github.io`資料夾。寫下面指令的時候`username` 一樣都要記得帶換成你自己設定的。
 
-	$ git init
-	$ git add .
-	$ git commit -m "initial commit"
-	$ git remote add origin https://github.com/username/username.github.io
-	$ git push origin master
+```zsh
+$ git init
+$ git add .
+$ git commit -m "initial commit"
+$ git remote add origin https://github.com/username/username.github.io
+$ git push origin master
+```
 
 這時候你再到自己的GitHub看一下`username.github.io`的repo有沒有順利更新（東西有沒有順利從本地推上去），如果有出現跟你本地資料夾裡面一樣的東西的話，恭喜你push成功了！接著就可以到自己的網址`https://username.github.io`檢查漂亮網站有沒有出現囉～
 

@@ -4,7 +4,7 @@ title: 如何在Jekyll網頁底下加入Linkedin個人主頁連結
 permalink: /how-to-add-linkedin-profile-link-to-jekyll.html
 date: 2020-07-22
 author: yunchipang
-tags: [jekyll, github-pages, linkedin]
+tags: [jekyll, linkedin]
 ---
 大家剛使用Jekyll建立網頁之後，第一件事就是設定`_config.yml`檔案了對吧？（詳請請見：[如何使用Jekyll建立個人GitHub Pages網頁](https://yunchipang.github.io/setting-up-a-ghpages-site-with-jekyll.html)），在`username.github.io`打開自己的網頁之後，捲捲捲到最下面，可以看到當初在`_config.yml`設定的`title`, `email`, `description`等等資訊都被完好地呈現出來了。
 
@@ -24,16 +24,20 @@ tags: [jekyll, github-pages, linkedin]
 ## step2: 把username貼到_config.yml檔案裡
 在資料夾根目錄打開你的`_config.yml`檔案，找到social links的部分，建立`linkedin_username`，然後把你剛剛複製好的`username`貼上去。
 
-	twitter_username: yunchipang
-	github_username:  yunchipang
-	linkedin_username: yunchipang  # add your linkedin
+```yaml
+twitter_username: yunchipang
+github_username:  yunchipang
+linkedin_username: yunchipang  # added
+```
 
 <br/>
 
 ## step3: 存檔並在local server預覽
 將你剛剛編輯好的`_config.yml`存好，並使用本地瀏覽器預覽成果。
 
-	$ jekyll serve
+```zsh
+$ jekyll serve
+```
 
 成功的話，你就可以在每一頁的footer link那邊看到剛剛多加入的Linkedin標誌和你自己的主頁連結了，點點看有沒有順利連到Linkedin！
 
@@ -44,8 +48,13 @@ tags: [jekyll, github-pages, linkedin]
 ## step4: git指令
 如果在本地瀏覽器成功預覽到的話，最後一步一樣就是推上github啦！記得好習慣先`$ git status`檢查一下有沒有成功改到`_config.yml`檔案。
 
-	$ git status
-	$ git add _config.yml
-	$ git commit "add linkedin profile to footer"
-	$ git push
+```zsh
+$ git status
+$ git add _config.yml
+$ git commit "add linkedin profile to footer"
+$ git push
+```
+
+<br/>
+
 
