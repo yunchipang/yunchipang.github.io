@@ -34,6 +34,7 @@ tags: [jekyll, javascript]
 ## step2: 建立 _includes/analytics.html 文件
 第一步請在你網站根目錄的`_includes`資料夾裡建立一個叫做`analytics.html`的新文件，並且貼入以下程式碼。
 
+{% raw %}
 ```html
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -46,6 +47,8 @@ tags: [jekyll, javascript]
   
 </script>
 ```
+{% endraw %}
+
 <br/>
 
 ## step3: 在 _config.yml 貼入專屬tracking-ID
