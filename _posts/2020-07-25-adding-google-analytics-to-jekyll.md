@@ -73,5 +73,6 @@ google_analytics: UA-XXXXXXXXX-1 # your own tracking ID
 參考資料：
 
 - [How to add Google Analytics to a Jekyll website](https://desiredpersona.com/google-analytics-jekyll/)
+- [Add Google Analytics to a Jekyll Website](https://curtisvermeeren.github.io/2016/11/18/Jekyll-Google-Analytics.html)
 
 <br/>
