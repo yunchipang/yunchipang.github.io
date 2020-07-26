@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 為Jekyll文章加入tags & related posts
+title: 如何為Jekyll文章加入tags & related posts
 permalink: /adding-tags-and-related-posts.html
 date: 2020-07-24
 author: yunchipang
@@ -14,8 +14,42 @@ tags: jekyll
 
 <br/>
 
-## step1: 建立tags頁面
-在根目錄建立tags.md的新文件，使用以下這段程式碼：
+## step1: 為文章設定tags
+首先當然是確保你的每篇文章都有設定各自的標籤(tags)啦！在用markdown寫文章的時候，我們會在front-matter做一些基本設定，包括`layout`, `title`, `date`, `author`等等，只要再多加一個`tags`就可以透過設定標籤來更好地管理文章了。
+
+只有一個tag的時候：
+
+```md
+---
+layout: post
+title: title of the post
+permalink: /title-of-the-post.html
+date: YYYY-MM-DD
+author: your name
+tags: tag1
+---
+```
+
+有多個tags的時候：
+
+```md
+---
+layout: post
+title: title of the post
+permalink: /title-of-the-post.html
+date: YYYY-MM-DD
+author: your name
+tags: [tag1, tag2, tag3]
+---
+```
+
+注意`tags`要像寫python的list那樣，把每一個tag用逗號隔開、再用brackets包起來。
+
+
+<br/>
+
+## step2: 建立tags頁面
+接下來，在根目錄建立tags.md的新文件，使用以下這段程式碼：
 
 {% raw %}
 ```md
@@ -57,8 +91,8 @@ permalink: /tags/
 
 <br/>
 
-## step2: 在每篇文開頭加入此篇文的tags
-第二步驟是在`_layouts/post.html`選定自己要加入tags的位置貼入以下程式碼。
+## step3: 在每篇文開頭加入此篇文的tags
+在`_layouts/post.html`選定自己要加入tags的位置貼入以下程式碼。
 
 請仔細閱讀`post.html`裡面的程式碼，因為這關係著你每一篇文章的排版。建議同步打開你目前的網頁，觀察哪一行是哪一行，這樣可以比較精準判斷你要把tags的小連結放在這篇文章的哪裡。例如我想要把tags的連結放在我每篇文章的標題下面、時間之前，我就找到`post.html`的`<header></header>`跟`<time></time>`，並把以下程式碼塞進兩者之間：
 
@@ -79,7 +113,7 @@ permalink: /tags/
 
 <br/>
 
-## step3: 列出與此文有關的其他文章（推薦閱讀）
+## step4: 列出與此文有關的其他文章（推薦閱讀）
 基於我們通常希望這項功能出現在讀者閱讀完一篇文章的最下面，好讓他可以繼續點擊閱讀他有興趣的相關文章，我們要把程式碼塞在`post.html`的`content`後面（放之前仔細讀code會比較好找位置！）
 
 {% raw %}
