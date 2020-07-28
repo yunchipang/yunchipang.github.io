@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Conjoint Analysis - Spotify HK University Student Users
+title: Conjoint Analysis on Spotify HK University Student Users
 permalink: /conjoint-analysis-spotify-hk.html
 date: 2020-07-27
 author: yunchipang
@@ -199,7 +199,16 @@ plt.show()
 
 `'sound_quality'` and `'brand'` are the 2 most influenctial attributes for university students in Hong Kong when choosing a music steaming service. Suprisingly, `'price'` is not one of the important attributes. However, there might be other factors like the music styles and special features that are not measurable in this case. We will be able to investigate into those when more detailed data are collected.
 
+*This report is originally the final team project of the Marketing Analytics (MKTG4090) course at CUHK. I have re-organized and re-analyzed data and created this post. Shout out to my teammates Cathy, Terrence and Alex, thanks guys!
 
 <br/>
 
-*This report is originally the final team project of the Marketing Analytics (MKTG4090) course at CUHK. I have re-organized and re-analyzed data and created this post. Shout out to my teammates Cathy, Terrence and Alex, thanks guys!
+#### materials:
+
+- [How to Do Conjoint Analysis in python](https://ariepratama.github.io/How-to-do-conjoint-analysis-in-python/)
+- [Conjoint Analysis: A simple python implementation](https://www.linkedin.com/pulse/conjoint-analysis-simple-python-implementation-prajwal-sreenivas/)
+
+<br/>
+
+
+
