@@ -35,7 +35,7 @@ Aug 2018 - Nov 2018, Mexico
 
 ## [**Linkedin Learning**](https://www.linkedin.com/learning)
 
-![business analytics foundations](/assets/images/Business_Analytics_Foundations.png){:height="50%" width="50%"}![learning linux command line](/assets/images/Learning-Linux-Command-Line.png){:height="50%" width="50%"}![learning github](/assets/images/Learning-GitHub.png){:height="50%" width="50%"}![NLP with pyhon](/assets/images/NLP-with-Python-for-Machine-Learning-Essential-Training.png){:height="50%" width="50%"}
+![business analytics foundations](/assets/images/Business_Analytics_Foundations.png){:height="50%" width="50%"}![learning linux command line](/assets/images/Learning-Linux-Command-Line.png){:height="50%" width="50%"}![learning github](/assets/images/Learning-GitHub.png){:height="50%" width="50%"}![NLP with pyhon](/assets/images/NLP-with-Python-for-Machine-Learning-Essential-Training.png){:height="50%" width="50%"}![introduction to web APIs](/assets/images/intro-to-web-APIs.png){:height="50%" width="50%"}
 
 <br/>
 
