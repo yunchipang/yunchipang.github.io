@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 如何使用scikit-learn做NLP資料清理及文字預處理
-permalink: /text-preprocessing-with-sklearn.html
+title: 如何使用nltk及scikit-learn做NLP資料清理及文字預處理
+permalink: /text-preprocessing-with-nltk-and-sklearn.html
 date: 2020-08-17
 author: yunchipang
 tags: [python, sklearn, NLP]
