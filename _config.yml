@@ -32,7 +32,13 @@ linkedin_username: yunchipang
 theme: minima
 plugins:
   - jekyll-feed
+markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'syntax'
 
 # for setting up /tags
 collections:
