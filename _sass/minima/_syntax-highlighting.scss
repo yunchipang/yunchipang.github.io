@@ -2,12 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
-  /**background: #fff;**/
+  background-color: #272822;
   @extend %vertical-rhythm;
 
   /**.highlighter-rouge & {
     /**background: #eef;**/
-    background: #272822;
   }
 
   .hll { background-color: #272822; }
