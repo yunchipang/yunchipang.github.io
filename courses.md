@@ -46,7 +46,7 @@ Aug 2018 - Nov 2018, Mexico
 
 ## [**Google Analytics Academy**](https://analytics.google.com/analytics/academy/)
 
-![google analytics for beginners](/assets/images/google-analytics-for-beginners.png){:height="50%" width="50%"}
+![google analytics for beginners](/assets/images/google-analytics-for-beginners.png){:height="50%" width="50%"}![google tag manager fundamentals](/assets/images/google-tag-manager-fundamentals.png){:height="50%" width="50%"}
 
 <br/>
 
