@@ -27,6 +27,11 @@ Aug 2018 - Nov 2018, Mexico
 
 <br/>
 
+## **Competitions**
+![shopee code league](/assets/images/shopee-code-league.png){:height="50%" width="50%"}
+
+<br/>
+
 ## [**Kaggle Learn**](https://www.kaggle.com/learn/overview)
 
 ![pandas](/assets/images/yunchipang-Pandas.png){:height="50%" width="50%"}![intro to machine learning](/assets/images/yunchipang-Intro-to-Machine-Learning.png){:height="50%" width="50%"}![intermediate machine learning](/assets/images/yunchipang-Intermediate-Machine-Learning.png){:height="50%" width="50%"}![feature engineering](/assets/images/yunchipang-Feature-Engineering.png){:height="50%" width="50%"}
