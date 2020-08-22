@@ -32,6 +32,12 @@ Aug 2018 - Nov 2018, Mexico
 
 <br/>
 
+## [**Google Analytics Academy**](https://analytics.google.com/analytics/academy/)
+
+![google analytics for beginners](/assets/images/google-analytics-for-beginners.png){:height="50%" width="50%"}![google tag manager fundamentals](/assets/images/google-tag-manager-fundamentals.png){:height="50%" width="50%"}![google data studio](/assets/images/google-data-studio.png){:height="50%" width="50%"}
+
+<br/>
+
 ## [**Kaggle Learn**](https://www.kaggle.com/learn/overview)
 
 ![pandas](/assets/images/yunchipang-Pandas.png){:height="50%" width="50%"}![intro to machine learning](/assets/images/yunchipang-Intro-to-Machine-Learning.png){:height="50%" width="50%"}![intermediate machine learning](/assets/images/yunchipang-Intermediate-Machine-Learning.png){:height="50%" width="50%"}![feature engineering](/assets/images/yunchipang-Feature-Engineering.png){:height="50%" width="50%"}
@@ -41,12 +47,6 @@ Aug 2018 - Nov 2018, Mexico
 ## [**Linkedin Learning**](https://www.linkedin.com/learning)
 
 ![business analytics foundations](/assets/images/Business_Analytics_Foundations.png){:height="50%" width="50%"}![learning linux command line](/assets/images/Learning-Linux-Command-Line.png){:height="50%" width="50%"}![learning github](/assets/images/Learning-GitHub.png){:height="50%" width="50%"}![NLP with pyhon](/assets/images/NLP-with-Python-for-Machine-Learning-Essential-Training.png){:height="50%" width="50%"}![introduction to web APIs](/assets/images/intro-to-web-APIs.png){:height="50%" width="50%"}
-
-<br/>
-
-## [**Google Analytics Academy**](https://analytics.google.com/analytics/academy/)
-
-![google analytics for beginners](/assets/images/google-analytics-for-beginners.png){:height="50%" width="50%"}![google tag manager fundamentals](/assets/images/google-tag-manager-fundamentals.png){:height="50%" width="50%"}
 
 <br/>
 
