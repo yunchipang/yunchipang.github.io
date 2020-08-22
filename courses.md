@@ -15,7 +15,7 @@ permalink: /courses/
 - DSME4280 Network and Security
 
 #### **Quantitative Marketing**
-- MKTG4040 Strategic Management
+- MKTG4040 Strategic Marketing
 - MKTG4070 Marketing in China
 - MKTG4080 Digital Marketing
 - MKTG4090 Marketing Analytics
@@ -31,6 +31,7 @@ permalink: /courses/
 - MGNT1020 Principles of Management
 - MGNT2510 Introduction to Internatioanl Business
 - MGNT2610 Legal Environment, CSR & Business Ethics
+- MGNT4010 Strategic Management
 - ACCT2111 Introductory Finanacial Accounting
 - ACCT2121 Introductory Management Accounting
 - FINA2010 Financial Management
