@@ -4,24 +4,24 @@ title: courses
 permalink: /courses/
 ---
 ## [**CUHK Business School**](https://www.bschool.cuhk.edu.hk/)
-Bachelor of Business Administration (Sep 2017 - Jul 2021, Hong Kong)
-Double Concentration: Business Analytics & Quantitative Marketing
+* [Bachelor of Business Administration](http://ibba.bschool.cuhk.edu.hk/): Sep 2017 - Jul 2021, Hong Kong
+* [Concentrations](http://ibba.bschool.cuhk.edu.hk/academics/concentrations/): Business Analytics & Quantitative Marketing
 
-#### Business Analytics
+#### **Business Analytics**
 - DSME2021 Applied Econometrics for Business Decisions
 - DSME2040 Business Analytics
 - DSME4020 Decision Modeling & Analytics
 - DSME4070 Data Management and Big Data Analytics
 - DSME4280 Network and Security
 
-#### Quantitative Marketing
+#### **Quantitative Marketing**
 - MKTG4040 Strategic Management
 - MKTG4070 Marketing in China
 - MKTG4080 Digital Marketing
 - MKTG4090 Marketing Analytics
 - MKTG4120 Marketing Engineering
 
-#### Faculty Package
+#### **Faculty Package**
 - DSME1030 Economics for Business Studies I
 - DSME1040 Economics for Business Studies II
 - DSME2011 Statistical Analysis for Business Decisions
@@ -38,10 +38,10 @@ Double Concentration: Business Analytics & Quantitative Marketing
 <br/>
 
 ## [**Tecnológico de Monterrey**](https://tec.mx/en)
-term exchange program (Aug 2018 - Nov 2018, Mexico)
+Term Exchange Program: Aug 2018 - Nov 2018, Mexico
 
-- Qualitative Marketing
-- Quantitative Marketing
+- MT2007 Qualitative Marketing
+- MT2013 Quantitative Marketing
 
 <br/>
 
