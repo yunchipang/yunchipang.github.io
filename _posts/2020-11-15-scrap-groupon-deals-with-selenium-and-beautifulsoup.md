@@ -11,4 +11,12 @@ author: yunchipang
 
 先前情提要一下教授教的解法。因為在沒辦法控制瀏覽器自動翻頁的情況下，我們必須
 
+```
+from bs4 import BeautifulSoup
+import requests
+import nltk
+import string
+import pandas as pd
+```
+
 最後也要特別感謝我主管m跟qa team的w，分別在教授上課之前教過我BeautifulSoup還有在教授不教翻頁的情況下給我提點selenium，你們是我的知識寶庫：）
