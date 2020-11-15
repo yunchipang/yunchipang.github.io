@@ -1,6 +1,6 @@
 ---
 layout: post
-title: groupon餐廳評價
+title: 使用nltk對groupon餐廳評價做文字預處理&情感分析
 permalink: /sentiment-analysis-with-groupon-deals.html
 date: 2020-11-15
 author: yunchipang
