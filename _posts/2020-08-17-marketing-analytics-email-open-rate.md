@@ -4,7 +4,7 @@ title: 顧客會不會打開email？行銷資料合併、清理、分析與建�
 permalink: /marketing-analytics-email-open-rate.html
 date: 2020-08-17
 author: yunchipang
-tags: [marketing, python, sklearn, data-analytics]
+tags: [marketing, python, sklearn]
 ---
 這個project是來自[shopee code league](https://careers.shopee.sg/codeleague/)這個比賽的最終[challenge](https://www.kaggle.com/c/student-shopee-code-league-marketing-analytics)：被歸類於marketing analytics的binary classification。題目是利用官方提供的三個數據集去合併、清理及建立模型，根據有用的線索去預測顧客會不會打開蝦皮寄出的行銷email。
 

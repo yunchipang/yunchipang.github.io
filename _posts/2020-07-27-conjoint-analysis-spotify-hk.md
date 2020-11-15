@@ -4,7 +4,7 @@ title: Conjoint Analysis on Spotify HK University Student Users
 permalink: /conjoint-analysis-spotify-hk.html
 date: 2020-07-27
 author: yunchipang
-tags: [marketing, data analytics, python]
+tags: [marketing, python]
 ---
 
 There are 4 main music streaming service providers in Hong Kong: **[Joox](https://www.joox.com)**, **[KKBox](https://www.kkbox.com)**, **[Spotify](https://www.spotify.com)** and **[Moov](https://moov.hk)**. And here are some basic data of them, just for your information.
