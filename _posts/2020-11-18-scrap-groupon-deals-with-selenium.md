@@ -109,7 +109,7 @@ see_all_reviews.click()
 time.sleep(0.5)
 
 all_comments = []
-for p in range1(113):
+for p in range(113):
     comments = []
     for i in range(1, 11):
         try:
