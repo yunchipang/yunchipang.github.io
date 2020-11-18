@@ -26,7 +26,7 @@ r = requests.get(url, headers=headers)
 ```
 
 ```python
-soup = BeautifulSoup(ps, "html.parser")
+soup = BeautifulSoup(r, "html.parser")
 content = []
 for i in soup.find_all("div", class_="tip-text"):
     content.append(i.text.strip())
