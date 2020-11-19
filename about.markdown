@@ -7,7 +7,7 @@ hello there,
 
 <br/>
 
-My name is **Yunchi**, a final year student studying **business analytics & quantitative marketing** at **CUHK** (The Chinese University of Hong Kong). Interested in applying data analytics to the digital marketing field, I am actively seeking internship opportunities located in Taipei or Hong Kong.
+My name is **Yunchi**, a final year student studying **business analytics & quantitative marketing** at **CUHK** (The Chinese University of Hong Kong). Interested in applying data analytics to the digital marketing field, I am open to internship/fresh grad opportunities located in Hong Kong/Taipei/SEA.
 
 - programming: Python, R, HTML, CSS, JavaScript
 - digital marketing: GA, GTM, UTM, Ads, Line@, affiliate marketing
@@ -25,7 +25,7 @@ yunchi
 
 <br/>
 
-嗨～歡迎來到我的個人網站，我是一個來台北、目前就讀香港中文大學商學院、主修商業分析及計量行銷的大四學生。這裡是我的作品集、技術部落格、也是學習筆記，因為未來想成為專精於數位行銷領域的商業分析師，但感到自己的技術背景不夠硬，所以從頭開始自己架了這個網站，希望可以把自修練習、課堂學到的技術、還有實習中執行過的專案都放在這裡做個紀錄。
+嗨～歡迎來到我的個人網站，我是一個來台北、目前就讀香港中文大學商學院、主修商業分析及計量行銷的大四學生。這裡是我的作品集、技術部落格、也是學習筆記，因為未來想成為專精於數位行銷領域的數據分析師，但感到自己的技術背景不夠硬，所以從頭開始自己架了這個網站，希望可以把自修練習、課堂學到的技術、還有實習中執行過的專案都放在這裡做個紀錄。
 
 你不一定會看到很專業的程式筆記（畢竟我不是工程師，我爸才是xd）、或是爆星星的github repo，但這些都是我真實的學習之路，希望抬頭挺胸地跟各位分享身為文科生在寫程式方面遇到的難題、瓶頸、經驗、心得等等。不學習不工作的時候，我喜歡旅行、曬太陽、潛水、或是宅在家裡看youtube。你可以在以下的連結們找到我在網路上的各個棲息地，也歡迎隨時找我聊聊！
 
