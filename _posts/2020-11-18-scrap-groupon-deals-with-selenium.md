@@ -7,7 +7,7 @@ author: yunchipang
 tags: [python, selenium]
 ---
 
-這份code是自發性作業，自從上次教授教過用`requests`跟`BeautilfulSoup`爬取跟解析groupon網站上某deal的comments之後，我就一直想試試看用selenium自動翻頁以爬取同個url上所有的comments，於是自己研究了解法，是很初階的用法但我已經感動不已。
+這份code是自發性作業，自從上次教授教過用`requests`跟`BeautilfulSoup`爬取跟解析groupon網站上某deal的comments之後，我就一直想試試看用selenium自動翻頁以爬取同個url上所有的comments，於是自己研究了解法，是很初階的用法但我已經感動不已。而因為這是我第一次寫selenium，如果閣下讀完code發現有可以優化的地方也請不吝指教！
 
 <br>
 
