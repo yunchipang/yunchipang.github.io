@@ -150,6 +150,6 @@ all_comments_flat = sum(all_comments, [])
 
 <br>
 
-自己研究selenium真是困難又有趣，也要特別感謝主管m跟qa team的w，分別在教授上課之前教過我BeautifulSoup還有在教授不教翻頁的情況下給我提點selenium，整天回答笨問題還幫我除錯，你們真是我的知識寶庫xddd自己寫出上課沒有教的東西真的特別快樂～
+自己研究selenium真是困難又有趣，也要特別感謝教授H、主管M跟QA team的W，教授出的作業讓我終於督促自己學selenium、M在教授上課之前教過我BeautifulSoup、W在中午吃飯時間給我提點selenium，你們整天回答笨問題還幫我除錯，真是我的知識寶庫xddd自己寫出上課沒有教的東西真的特別快樂～
 
 <br>
