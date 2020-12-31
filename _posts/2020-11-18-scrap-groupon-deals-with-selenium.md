@@ -129,7 +129,14 @@ driver.close()
 all_comments_flat = sum(all_comments, [])
 ```
 
-最後113頁裡總共獲得1127筆comment，我會嘗試在下篇文章用這些comments做groupon這兩項商品的情感分析（回答教授提供的問題集）。
+```
+f = open('all_comments.txt', 'w')
+for i in all_comments_flat:
+    f.write(i+'\n')
+f.close()
+```
+
+最後113頁裡總共獲得1002筆comment，把list存入名為`all_comments.txt'的檔案中，而我會嘗試在下篇文章用這些comments做groupon這兩項商品的情感分析（回答教授提供的問題集）。
 
 <br>
 
