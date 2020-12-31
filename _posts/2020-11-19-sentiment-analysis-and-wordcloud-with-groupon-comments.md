@@ -6,7 +6,16 @@ date: 2020-11-19
 author: yunchipang
 tags: [python, NLP]
 ---
-接續上一篇我們用selenium爬到了[groupon](https://www.groupon.com/deals/gg-fitbit-alta-fitness-wristband)網站上特定產品頁的所有評價，今天要做的就是後續的文字雲及情感分析。大部分都會與[這篇](https://yunchipang.github.io/sentiment-analysis-with-groupon-deals.html)相似（畢竟是同份作業）但因為資料量差很多（8-10筆&1000多筆），我還是希望可以跑出來看看結果有何不同。我們手上有一份大list內含所有我們上一篇從groupon爬下來的comment資料`all_comments_flat`。
+接續上一篇我們用selenium爬到了[groupon](https://www.groupon.com/deals/gg-fitbit-alta-fitness-wristband)網站上特定產品頁的所有評價，今天要做的就是後續的文字雲及情感分析。大部分都會與[這篇](https://yunchipang.github.io/sentiment-analysis-with-groupon-deals.html)相似（畢竟是同份作業）但因為資料量差很多（8-10筆&1000多筆），我還是希望可以跑出來看看結果有何不同。
+
+開始寫分析之前，先把手上從groupon爬下來的資料讀進來，取名叫做`comments`。
+
+```python
+f = open('all_comments.txt', 'r').readlines()
+comments = [i.strip('\n') for i in f]
+
+len(comments) # returns 1002
+```
 
 <br>
 
@@ -79,9 +88,19 @@ negative = [i.strip('\n') for i in n]
 ```
 
 ```python
-df = pd.DataFrame(content, columns=['comment'])
+import pandas as pd
+df = pd.DataFrame(comments, columns=['comment'])
 ```
 ```python
+# define a new function cleaning single comment
+def clean_comment(x):
+    words = nltk.tokenize.word_tokenize(x.lower())
+    words = [w for w in words if w not in string.punctuation]
+    words = [w for w in words if w not in nltk.corpus.stopwords.words('english')]
+    lemmatizer = nltk.stem.wordnet.WordNetLemmatizer()
+    l_words = [lemmatizer.lemmatize(i) for i in words]
+    return words
+
 df['comment_clean'] = df['comment'].apply(lambda x: clean_comment(x))
 ```
 
