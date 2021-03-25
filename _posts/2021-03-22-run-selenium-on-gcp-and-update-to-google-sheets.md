@@ -190,7 +190,7 @@ driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 
 **(4) crontab排程執行**
 
-是否要排程自動執行就看這份專案是否有需求了。以我的專案為例，提出需求的部門希望每週更新，所以我就使用linux內建crontab排程為每週一下午四點會自動執行我上傳的`.py`文件。範例如下：
+是否要排程自動執行就看這份專案是否有需求了。以我的專案為例，提出需求的部門希望每週更新，所以我就使用linux內建crontab排程為每週一下午兩點會自動執行我上傳的`.py`文件。範例如下：
 
 ```shell
 0 14 * * 1 /usr/bin/python3 /home/username/name_of_the_script.py
