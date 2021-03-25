@@ -2,7 +2,7 @@
 layout: post
 title: 【CS50】week3 - algorithms | plurality, runoff/tideman 
 permalink: /cs50-week3-algorithms.html
-date: 2021-02-16
+date: 
 author: yunchipang
 tags: [CS50, C]
 ---

@@ -12,4 +12,9 @@ tags: [python]
 1. 將原始python script分享給提出request的同事，讓他們需要的時候自己使用command line執行。
 	* 優點：我們這邊寫完script就可以結束。
 	* 缺點：同事電腦需要建置運算環境，如果專案比較複雜，需要安裝的模組跟套件就更多。就算幫一人完成安裝，之後無論是同事換電腦或是專案轉給別人負責，都需要重新幫忙建置。另外，使用command line指令也是潛在的技術門檻。
-2. 將python script打包成執行檔(executable)並將檔案交給
+2. 將python script架到雲端運算環境並排程自動執行。
+	*  優點：自動化程度最高，
+	*  缺點：額外花費。
+3. 將python script打包成執行檔(executable)並將檔案交給提出request的同事。
+	* 優點：比較折衷的辦法。
+	* 缺點：每次使用還是必須手動點擊
