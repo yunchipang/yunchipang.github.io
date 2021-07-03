@@ -7,12 +7,11 @@ hello there,
 
 <br/>
 
-My name is **Yunchi**, a final year student studying **business analytics & quantitative marketing** at **CUHK** (The Chinese University of Hong Kong). Interested in applying data analytics to the digital marketing field, I am open to internship/fresh grad opportunities located in Hong Kong/Taipei/SEA.
+My name is **Yunchi**, a final year student studying **business analytics & quantitative marketing** at **CUHK** (The Chinese University of Hong Kong). I am open to internship/fresh grad opportunities located in Hong Kong/Taipei/SEA.
 
-- programming: Python, R, HTML, CSS, JavaScript
-- digital marketing: GA, GTM, UTM, Ads, Line@, affiliate marketing
+- programming: Python, HTML, CSS, JavaScript, R, C/C++
+- digital marketing: GA, GTM, Google Ads, affiliate marketing
 - database tools: SQL
-- statistical techniques& ML:  predictive analysis (logistic regression, linear regression, KNN, random forest, gradient boosting, naive bayes), natural language processing
 
 For more information, feel free to visit my [LinkedIn Profile](https://www.linkedin.com/in/yunchipang/) and connect with me!
 
@@ -25,9 +24,9 @@ yunchi
 
 <br/>
 
-嗨～歡迎來到我的個人網站，我是一個來自台北、目前就讀香港中文大學商學院、主修商業分析及計量行銷的大四學生。這裡是我的作品集、技術部落格、也是學習筆記，因為未來想成為在數位行銷領域玩資料的人（？）但感到自己的技術背景不夠硬，所以從頭開始自己架了這個網站，希望可以把自修練習、課堂學到的技術、還有實習中執行過的專案都放在這裡做個紀錄。因為世界上的知識無窮無盡，而我只是一顆一事無成的小馬鈴薯，希望寫文章也可以督促自己無時無刻都抱持謙虛並且努力學習。
+嗨～歡迎來到我的github page，我是一個來自台北、目前就讀香港中文大學商學院、主修商業分析及計量行銷的大四學生。這裡是我的作品集、技術部落格、也是學習筆記，因為感到自己的技術背景不夠硬，所以從頭開始自己架了這個網站，希望可以把自修練習、課堂學到的技術、還有實習中執行過的專案都放在這裡做個紀錄。因為世界上的知識無窮無盡，而我只是一顆一事無成的小馬鈴薯，希望寫文章也可以督促自己無時無刻都抱持謙虛並且努力學習。
 
-你不一定會看到很專業的程式筆記（畢竟我不是工程師，我爸才是xd）、或是爆星星的github repo，但這些都是我真實的學習之路，希望抬頭挺胸地跟各位分享身為文科生在寫程式方面遇到的難題、瓶頸、經驗、心得等等。不學習不工作的時候，我喜歡旅行、跳舞、曬太陽、潛水、或是宅在家裡看youtube。你可以在以下的連結們找到我在網路上的各個棲息地，也歡迎隨時找我聊聊！
+你不一定會看到很專業的程式筆記，但這些是我真實的學習之路，希望抬頭挺胸地跟各位分享身為文科生在寫程式方面遇到的難題、瓶頸、經驗、心得等等。不學習不工作的時候，我喜歡旅行（去很冷門地方、或是荒野）、跳舞（目前多為zumba, twerk & female dancehall） 、曬太陽、潛水（水肺及自由）、或是宅在家裡看youtube。你可以在以下的連結們找到我在網路上的各個棲息地，也歡迎隨時找我聊聊！
 
 - 請介紹工作給我linkedin：[https://www.linkedin.com/in/yunchipang](https://www.linkedin.com/in/yunchipang){:target="_blank"}
 - 目前可能沒啥內容的github：[https://github.com/yunchipang](https://github.com/yunchipang){:target="_blank"}
