@@ -108,7 +108,7 @@ define( 'AI1WM_MAX_FILE_SIZE', 536870912 * 20 );
 
  1. 找到剛剛建立的DNS zone，進入manage頁面
  2. 按 `+ Add Record`
- 3. 選擇`A record`（用IPv4導向domain）、subdomain留白、並在resolves填入主機的IP位址
+ 3. 選擇`A record`（用IPv4導向domain）、subdomain留白（不能留白的話嘗試輸入`@`）、並在resolves填入主機的IP位址
  4. 按下左側綠勾勾確認
  5. 在DNS zone裡即可以看到被分配到的nameservers
 
