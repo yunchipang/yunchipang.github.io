@@ -7,7 +7,7 @@ hello there,
 
 <br/>
 
-My name is **Yunchi**, a final year student studying **business analytics & quantitative marketing** at **CUHK** (The Chinese University of Hong Kong). I am open to internship/fresh grad opportunities located in Hong Kong/Taipei/SEA, preferably in data/software engineering.
+My name is **Yunchi**, a final year student studying **business analytics & quantitative marketing** at **CUHK** (The Chinese University of Hong Kong). I am open to internship/fresh grad opportunities preferably in data/software engineering. 
 
 - programming languages: Python, R, C, C++, JavaScript, HTML, CSS
 - database tools: SQL, MySQL, PostgreSQL, SQLite
