@@ -47,7 +47,7 @@ Term Exchange Program: Aug 2018 - Nov 2018, Mexico
 <br/>
 ## CS50x 2021
 
-![cs50x 2021](/assets/CS50x.png){:height="50%" width="50%"}
+![cs50x 2021](/assets/images/CS50x.png){:height="50%" width="50%"}
 
 ## **Competitions**
 ![shopee code league](/assets/images/shopee-code-league.png){:height="50%" width="50%"}
