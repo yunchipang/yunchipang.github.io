@@ -1,22 +1,22 @@
 ---
 layout: post
-title: [cs50x] 使用flask+postgresql建置web-app並架設在heroku
+title: "[cs50x] 使用flask+postgresql建置web-app並架設在heroku"
 permalink: /deploy-flask-app-with-postgresql-database-on-heroku.html
 date: 2021-08-18
 author: yunchipang
-tags: [flask, postgresql, heroku]
+tags: [python, flask, postgresql, heroku]
 ---
 cs50x final project在我苦思將近一個月、到處亂撞技術的厚牆之後，決定從簡單開始，使用教授課內教的flask搭配postgresql做為資料庫做一個web-app並架在heroku上使用。
 
 <br>
 
-### idea
+### **idea**
 
-在離開台北之前去做了最後一次光療，突然發現每次做完指甲，美甲師總是會問我「你生日幾月？」，問完幾月之後會問「你生日幾號？」，他需要在厚厚的數十本的顧客資料夾中翻找出我的資料，雖然用生日做排列查找已經是不錯的方法，但如果可以建成資料庫應該更方便吧（我心想）所以牙一咬決定自己從頭開始刻，順便當作final project交出去一舉兩得xd
+在離開台北之前去做了最後一次光療，突然發現每次做完指甲，美甲師總是會問我「你生日幾月？」，問完幾月之後會問「你生日幾號？」，他需要在厚厚的數十本的顧客資料夾中翻找出我的資料，雖然用生日做排列查找已經是不錯的方法，但如果可以有前端互動跟後端資料庫應該更方便吧（我心想）所以牙一咬決定自己從頭開始刻，順便當作final project交出去一舉兩得xd
 
 <br>
 
-### Flask + PostgreSQL
+### **Flask + PostgreSQL**
 
 - github repo: **[trexchichi-manicure](https://github.com/yunchipang/trexchichi-manicure)**
 
@@ -54,7 +54,7 @@ python3 manage.py db upgrade
 
 <br>
 
-### errors
+### **errors**
 
 **1. local**
 
@@ -86,7 +86,7 @@ sqlalchemy.exc.NoSuchModuleError: Can't load plugin: sqlalchemy.dialects:postgre
 
 ```python
 basedir = os.path.abspath(os.path.dirname(__file__))
-# either run in 1. heroku env or 2. local env
+# either run on heroku env or local
 DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///'+ os.path.join(basedir, 'myDB.db')
 if DATABASE_URI.startswith("postgres://"):
     DATABASE_URI = DATABASE_URI.replace("postgres://", "postgresql://")
@@ -101,7 +101,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URI
 
 <br>
 
-參考資源
+參考資源：
 
 - [Python Flask Web API [Heroku]: It runs locally but shows Application Error when deployed](https://stackoverflow.com/questions/43593542/python-flask-web-api-heroku-it-runs-locally-but-shows-application-error-when)
 - [Create a Web App and Deploy it to the Cloud in 20 minutes with Python](https://arctype.com/blog/postgres-heroku/)
