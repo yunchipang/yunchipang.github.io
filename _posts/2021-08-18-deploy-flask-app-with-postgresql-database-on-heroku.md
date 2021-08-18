@@ -103,6 +103,5 @@ app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URI
 
 參考資源：
 
-- [Python Flask Web API [Heroku]: It runs locally but shows Application Error when deployed](https://stackoverflow.com/questions/43593542/python-flask-web-api-heroku-it-runs-locally-but-shows-application-error-when)
 - [Create a Web App and Deploy it to the Cloud in 20 minutes with Python](https://arctype.com/blog/postgres-heroku/)
 - [Developping a Flask Web App with a PostreSQL Database - Making all the Possible Errors](https://blog.theodo.com/2017/03/developping-a-flask-web-app-with-a-postresql-database-making-all-the-possible-errors/)
