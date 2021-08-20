@@ -9,6 +9,9 @@ tags: [cs61b, java, git]
 
 開始認真寫uc berkeley的cs61b之前必須先建置好java環境以及交作業的github repo，因為踩了一些小坑也受到網路上其他資源的幫助，決定把自己的路程也打包記錄下來。看了網路上很多心得跟筆記之後決定跟spring18的版本，因為autograder對公眾開放，就算不是正式enroll的ucb學生也可以使用系統交作業並得到分數。以下大概講解建立作業repo的步驟以及註冊gradescope流程。
 
+- course website: [https://sp18.datastructur.es/](https://sp18.datastructur.es/)
+- gitbook: [https://joshhug.gitbooks.io/hug61b/content/](https://joshhug.gitbooks.io/hug61b/content/)
+
 <br>
 
 ### **1. create a github repo**
