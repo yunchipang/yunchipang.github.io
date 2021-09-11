@@ -72,12 +72,12 @@ ImportError: cannot import name 'MigrateCommand' from 'flask_migrate'
 
 **2. heroku**
 
-1. 檔案打架
+- 檔案打架
 
 推到heroku之後造訪網頁，毫無意外地收到`Application Error`，於是乖乖的用`heroku logs --tail`開始慢慢除錯。我得到的全部都是`H10 "App crashed"`的錯誤，網路上大部分的資訊說這是因為`Procfile`裡面有bug，所以我跟著把`Procfile`改來改去但還是一樣錯誤。直到最後我細細地想過一遍我資料夾裡面每個檔案的用途，發現我有`Pipfile`也有`requirements.txt`但基本上這兩個檔案的作用是一樣的，都是declare目前使用的各個套件的版本。所以最後我把`Pipfile`刪掉只留`requirements.txt`就deploy成功了。
 
 
-2. 連接不到Heroku Postgres
+- 連接不到Heroku Postgres
 
 ```
 sqlalchemy.exc.NoSuchModuleError: Can't load plugin: sqlalchemy.dialects:postgres
