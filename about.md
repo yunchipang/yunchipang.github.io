@@ -3,10 +3,13 @@ layout: page
 title: about
 permalink: /about/
 ---
+{:refdef: style="text-align: right;"}
+![](/assets/images/profile_pic.JPG){:height="50%" width="50%"}
+{: refdef}
+
 hello there, 
 
 <br/>
-
 my name is **yunchi**, i was born and raised in taipei, and just graduated from **CHUK business school** (the chinese university of hong kong) with concentrations in **business analytics & quantitative marketing**. however, i currently work as a junior data engineer in shanghai. i started this blog to document my studies in programming, and i genuinely hope u find it helpful.
 
 apart from my studies and career, i enjoy traveling, dancing and making videos in my free time. i mainly practice twerking & female dancehall recently, they're really fun (highly recommended)!
