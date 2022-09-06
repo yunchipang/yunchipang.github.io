@@ -10,7 +10,7 @@ permalink: /about/
 hello there, 
 
 <br/>
-my name is **yun-chi**. i was born and raised in taipei, studied in hong kong and mexico, and now pursuing a master's degree in commputer science at northeastern university, san jose campus. i started this blog to document my studies in programming, and i genuinely hope u find it interesting and helpful.
+my name is **yunchi**. i was born and raised in taipei, studied in hong kong and mexico, and now pursuing a master's degree in computer science at northeastern university, san jose campus. i started this blog to document my studies in programming, and i genuinely hope u find it interesting and helpful.
 
 apart from my studies and career, i enjoy traveling, dancing and making videos in my free time. i mainly practice female dancehall and twerking tricks, and i also love reggaetón and comtemporary dance!
 
