@@ -3,14 +3,23 @@ layout: page
 title: projects
 permalink: /projects/
 ---
-Here is a list of my data analytics projects, please feel free the read more about the project and follow the **[GitHub](https://github.com/yunchipang)** link to the corresponded GitHub repository.
 
 <br/>
 
-[Conjoint Analysis on Spotify HK University Student Users](https://yunchipang.github.io/conjoint-analysis-spotify-hk.html) / [GitHub](https://github.com/yunchipang/conjoint-analysis-spotify-hk)
+### [**trexchichi-manicure**](https://trexchichi-manicure.herokuapp.com/)
+[github](https://github.com/yunchipang/trexchichi-manicure) / *Python, Flask, PostgreSQL, Heroku*
+* A web app implemented with the Flask framework. Aimed to provide beauty treatments such as manicure, pedicure and facial to customers.
+* Implemented functions such as user registration and log-ins, recording new transactions, user top-ups. History
+payments can also be queried by users' phone numbers.
 
-[如何使用nltk及scikit-learn做NLP資料清理及文字預處理](https://yunchipang.github.io/text-preprocessing-with-nltk-and-sklearn.html) / [kaggle](https://www.kaggle.com/c/student-shopee-code-league-sentiment-analysis)
+<br/>
+### **smartsheet to google sheets integration**
+[github](https://github.com/yunchipang/smartsheet-gsheet-integration) / *Python, [Google Sheets API](https://developers.google.com/sheets/api), [Smartsheet API](https://smartsheet.redoc.ly/), [Smartsheet Python SDK](http://smartsheet-platform.github.io/smartsheet-python-sdk/index.html), [PyInstaller](https://pyinstaller.org/)*
+* An internal tool for ShopBack Campaign team, to have monthly upsizes automatically update from business team’s Smartsheet to Campaign team’s Marketing Calendar on Google Sheets.
+* Automation can be acheived by delploying Python scripts to AWS Lambda. Or by converting Python scripts to executables, the project can be took over by non-developers.
 
-[顧客會不會打開email？行銷資料合併、清理、分析與建模](https://yunchipang.github.io/marketing-analytics-email-open-rate.html) / [kaggle](https://www.kaggle.com/c/student-shopee-code-league-marketing-analytics)
+<br/>
 
-[[cs50x] 使用flask+postgresql建置web-app並架設在heroku](https://yunchipang.github.io/deploy-flask-app-with-postgresql-database-on-heroku.html) / [github](https://github.com/yunchipang/trexchichi-manicure)
+### [**triztravel.com**](https://triztravel.com)
+*AWS Lightsail, WordPress, Namecheap*
+* A travel lifestyle blog build with Wordpress, deployed to AWS Lightsail.
