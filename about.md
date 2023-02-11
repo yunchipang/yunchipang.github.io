@@ -4,31 +4,27 @@ title: about
 permalink: /about/
 ---
 {:refdef: style="text-align: right;"}
-![](/assets/images/profile_pic.JPG){:height="50%" width="50%"}
+![](/assets/images/profile_matted.png){:height="50%" width="50%"}
 {: refdef}
 
-hello there, 
+#### **background**
 
-<br/>
-my name is **yunchi**. i was born and raised in taipei, studied in hong kong and mexico, and now pursuing a master's degree in computer science at northeastern university, san jose campus. i started this blog to document my studies in programming, and i genuinely hope u find it interesting and helpful.
+I am currently pursuing a **Master's degree in Computer Science at Northeastern University**, San Jose campus. As a software/data engineer, I enjoy building tools for people, especially the ones that improve efficieny and make lives easier. I started this blog to document my studies in software development, and I genuinely hope u find it interesting and/or helpful.
 
-apart from my studies and career, i enjoy traveling and dancing in my free time. i mainly practice dancehall, afro and reggaetón!
-
-for more information, feel free to visit the links below and connect with me!
-
-- linkedin：[https://www.linkedin.com/in/yunchipang](https://www.linkedin.com/in/yunchipang){:target="_blank"}
-- github：[https://github.com/yunchipang](https://github.com/yunchipang){:target="_blank"}
-- travel blog：[https://triztravel.com](https://triztravel.com){:target="_blank"}
+**When I'm not in front of my computer screen**, I am probably busy training at dance studios, hitting the gym, sipping coffee under the sun, or traveling the world.
 
 <br/>
 
-love,
+#### **skills**
 
-yunchi
+- Languages: Python, Java, C, Javascript, Typescript, HTML, CSS, SQL, R
+- Frameworks/Libraries: React, Node, Express, Django, Flask, Scrapy, Selenium, Jekyll
+- Database: MySQL, PostgreSQL, SQLite, MongoDB
+- Tools: Bash/Zsh, Vim, Git, Postman
 
 <br/>
 
-## **work experience**
+#### **work experience**
 
 ```
 Data Engineer @ Dashmote | Jan 2022 - June 2022
@@ -51,5 +47,10 @@ Operations Intern @ ShopBack | Sep 2020 - Jul 2021
 teams to implement strategies, which supports the steady 1% growth in number of partners every week.
 * Initiated projects on building internal services to automate manual work. By utilizing available APIs and SDKs, the **Python**-based automation tool reduced over 95% of human error and increased 80% of time efficiency.
 
+<br/>
 
+#### **connect with me**
 
+- linkedin：[https://www.linkedin.com/in/yunchipang](https://www.linkedin.com/in/yunchipang){:target="_blank"}
+- github：[https://github.com/yunchipang](https://github.com/yunchipang){:target="_blank"}
+- travel blog：[https://triztravel.com](https://triztravel.com){:target="_blank"}
