@@ -6,6 +6,8 @@ permalink: /courses/
 ### [**Northeastern University**](https://www.khoury.northeastern.edu/)
 - CS5002 Discrete Structures
 - CS5004 Object-Oriented Design
+- CS5008 Data Structures and Algorithms
+- CS5520 Mobile Development
 
 ### [**The Chinese University of Hong Kong**](https://www.bschool.cuhk.edu.hk/)
 - CSCI1130 Introduction to Computing Using Java
@@ -25,9 +27,3 @@ permalink: /courses/
 ### [**Google Analytics Academy**](https://analytics.google.com/analytics/academy/)
 
 ![google analytics for beginners](/assets/images/google-analytics-for-beginners.png){:height="50%" width="50%"}![google tag manager fundamentals](/assets/images/google-tag-manager-fundamentals.png){:height="50%" width="50%"}![google data studio](/assets/images/google-data-studio.png){:height="50%" width="50%"}![advanced google analytics](/assets/images/advanced-google-analytics.png){:height="50%" width="50%"}
-
-<br/>
-
-### [**Hubspot Academy**](https://academy.hubspot.com/)
-
-![inbound](/assets/images/hubspot-academy-inbound.png){:height="50%" width="50%"}![](/assets/images/hubspot-academy-inbound-marketing.png){:height="50%" width="50%"}
