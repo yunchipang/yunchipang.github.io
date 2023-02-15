@@ -9,7 +9,7 @@ permalink: /about/
 
 #### **background**
 
-I am currently pursuing a **Master's degree in Computer Science at Northeastern University**, San Jose campus. As a software/data engineer, I enjoy building tools for people, especially the ones that improve efficieny and make lives easier. I started this blog to document my studies in software development, and I genuinely hope u find it interesting and/or helpful.
+I am currently pursuing a **Master's degree in Computer Science at Northeastern University**, San Jose campus. As a software/data engineer, I enjoy building tools for people, especially the ones that improve efficiency and make lives easier. I started this blog to document my studies in software development, and I genuinely hope u find it interesting and/or helpful.
 
 **When I'm not in front of my computer screen**, I am probably busy training at dance studios, hitting the gym, sipping coffee under the sun, or traveling the world.
 
