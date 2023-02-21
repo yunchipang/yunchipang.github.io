@@ -4,6 +4,11 @@ title: projects
 permalink: /projects/
 ---
 
+### **[choreolib](https://github.com/yunchipang/djangorf_choreolib)**
+*Python, Django REST Framework, Docker*
+* An API built with Django REST Framework and Dockerized (in progress)
+* The `/choreos` endpoint Serves as a choreography library. Users can search a specific piece of choreography and retrieve information such as its choreographer, style, music, link to its video, etc.
+
 <br/>
 
 ### **[trexchichi-manicure](https://github.com/yunchipang/trexchichi-manicure)**
