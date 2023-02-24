@@ -71,7 +71,7 @@ tags: [python, django, docker, aws]
 1. 用SSH連上你的EC2 instance
 
     ```bash
-    $ chmod 400 drf-choreo-library.pem
+    $ chmod 400 your-key-pair.pem
     $ ssh -i "your-key-pair.pem" ec2-user@ec2-18-144-47-2.us-west-1.compute.amazonaws.com
     ```
     將key pair下載下來放在當前根目錄，確認無法從外部存取，然後帶上key用ssh連上虛擬機器。`@`後面要放的是你的機器的Public DNS，在EC2 dashboard找到connect按鍵按下去，裡面會有說明如何用SSH Client連接instance。
