@@ -64,7 +64,7 @@ tags: [python, django, docker, aws]
 
 <br/>
 
-### 3. 部署到AWS EC2
+### 3. deploy to AWS EC2 instance
 
 這邊假設大家都會建立EC2 instance！步驟就跟平常一樣，只是在選機器的時候要記得選Amazon ECS-Optimized Amazon Linux 2。
 
@@ -105,7 +105,30 @@ tags: [python, django, docker, aws]
 
 <br/>
 
-感謝其他網路大神指點
+### 4. page redirect
+
+前面1~3步結束，這個project基本上已經完成，重新指向只是一個nice to have。情況是：如果我不想要每次使用者都要從那一長串ec2的網址造訪我的api，那可以做一個簡單的redirect解決這個問題。首先，你需要擁有一個domain，可以是自己買的頂級網域或是像我一樣直接使用github pages的path。以下的步驟是如何在`https://xxxxx.github.io/` 的網域下新增頁面來重新指向的做法。
+
+在github pages repository根目錄建立一個新的html檔案，檔名即是要使用的path的名稱。例如我如果想要使用者造訪`https://yunchipang.github.io/choreolibrary` 的時候被帶到ec2 instance, 我的檔名就叫做`choreolibrary.html`。貼入以下的code，可以在顯示文字的同時直接重新導向到meta裡面帶的網址，也就是要前往的ec2 instance地址（代換成自己的即可）。
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=http://ec2-54-183-149-150.us-west-1.compute.amazonaws.com:8000/">
+  </head>
+  <body>
+    <p>Please wait while you are redirected to the EC2 instance...</p>
+  </body>
+</html>
+```
+
+commit之後到定義好的path，就會看到頁面顯示 Please wait while you are redirected to the EC2 instance... 的同時，網站很迅速地被轉到API頁面了。
+
+<br/>
+
+【感謝其他網路大神指點】
 - [chatgpt](https://chat.openai.com/) == 我的神
 - [Deploying Django Applications to AWS EC2 with Docker](https://stackabuse.com/deploying-django-applications-to-aws-ec2-with-docker/)
 
