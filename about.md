@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 {:refdef: style="text-align: right;"}
-![](/assets/images/profile_matte.png){:height="50%" width="50%"}
+![](/assets/images/DSC01597.jpg){:height="50%" width="50%"}
 {: refdef}
 
 #### **background**
@@ -20,10 +20,10 @@ I am currently pursuing a **Master's degree in Computer Science at Northeastern 
 
 #### **skills**
 
-- Languages: Python, Java, C, Javascript, Typescript, HTML, CSS, SQL, R
-- Frameworks/Libraries: React, Node, Express, Django, Flask, Scrapy, Selenium, Jekyll
+- Programming Languages: Python, Java, JavaScript, C, HTML, CSS
+- Frameworks/Libraries: React, React Native, Node.js, Express., Django, Flask, Scrapy, Selenium
 - Database: MySQL, PostgreSQL, SQLite, MongoDB
-- Tools: Bash/Zsh, Vim, Git, Postman
+- Tools: Bash, Zsh, Vim, Git, Postman
 
 <br/>
 
@@ -33,22 +33,21 @@ I am currently pursuing a **Master's degree in Computer Science at Northeastern 
 Data Engineer @ Dashmote | Jan 2022 - June 2022
 ```
 
-* Gathered raw data from 5 delivery platforms by developing web scrapers based on **Scrapy**.
-* Processed data at scale using **Python**, and cooperated with Quality Assurance team to deliver data with high completeness.
-* Investigated low quality data and identified issues using queries against **MySQL** and Amazon Athena.
+* Developed web scrapers based on **Scrapy** to gather raw data from 5 delivery platforms
+* Processed data at scale using **Python**, collaborated with colleagues on **GitHub** and maintained 6 repositories
 * Utilized Cloud Computing services and Containers (**AWS** S3, ECS, Lambda, EventBridge) to automate data
-collection processes, which increased 90% of time efficiency.
-* Collaborated with colleagues on **GitHub** and maintained up to 6 repositories.
+collection, resulting in a 90% increase in time efficiency
+* Investigated low quality data and identified issues using queries against **MySQL** and **Amazon Athena**
+* Worked with QA team to deliver data with high completeness
 
 ```
 Operations Intern @ ShopBack | Sep 2020 - Jul 2021
 ```
 
-* Put together **API integration** via TUNE partner marketing platform.
-* Constructed customized **JavaScript** in Google Tag Manager to support integration via tracking pixels and provided technical consultation to partners.
-* Formulated automation tools based on **Python** to scrape external websites and provided data for the business
-teams to implement strategies, which supports the steady 1% growth in number of partners every week.
-* Initiated projects on building internal services to automate manual work. By utilizing available APIs and SDKs, the **Python**-based automation tool reduced over 95% of human error and increased 80% of time efficiency.
+- Integrated **APIs** vis TUNE partner marketing platform to streamline data management
+- Constructed customized **JavaScript** in Google Tag Manager to support integration via tracking pixels and provided technical consultation to partners
+- Formulated **Python**-based automation tools to scrape external websites and provided data for business teams , supporting 1% weekly growth the partner numbers
+- Developed internal tools and documentation, provided training to internal teams on how to use the integrated system, resulting in a 92% decrease in support requests and 95% decrease in human error
 
 <br/>
 
