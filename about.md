@@ -9,20 +9,18 @@ permalink: /about/
 
 #### **background**
 
-I am currently pursuing a **Master's degree in Computer Science at Northeastern University**, San Jose campus. As a software/data engineer, I enjoy building tools for people, especially the ones that improve efficiency and make lives easier. In particular, I am more interested in backend engineering and working with APIs and databases. I started this blog to document my studies, and I genuinely hope u find it interesting and/or helpful.
+I am pursuing a **Master's degree in Computer Science** at **Northeastern University**, San Jose campus. As a software engineer, I am particularly interested in mobile app development, since I enjoy building tools for people, especially the ones that make lives easier. I started this blog to document my studies, and I genuinely hope you find it interesting and/or helpful.
 
 **When I'm not in front of my computer screen**, I am probably busy training at dance studios, hitting the gym, sipping coffee under the sun, or traveling the world.
-
- -- | --
-![](/assets/images/walking_tour.jpg)  |  ![](/assets/images/with_llama.jpg)
 
 <br/>
 
 #### **skills**
 
 - Programming Languages: Python, Java, JavaScript, C, HTML, CSS
-- Frameworks/Libraries: React, React Native, Node.js, Express., Django, Flask, Scrapy, Selenium
-- Database: MySQL, PostgreSQL, SQLite, MongoDB
+- Frameworks/Libraries: React, React Native, Node.js, Express, Django, Flask, Scrapy, Selenium
+- Infrastructure: AWS, Docker
+- Database: MySQL, PostgreSQL, SQLite, MongoDB, Firebase
 - Tools: Bash, Zsh, Vim, Git, Postman
 
 <br/>
@@ -33,12 +31,10 @@ I am currently pursuing a **Master's degree in Computer Science at Northeastern 
 Data Engineer @ Dashmote | Jan 2022 - June 2022
 ```
 
-* Developed web scrapers based on **Scrapy** to gather raw data from 5 delivery platforms
-* Processed data at scale using **Python**, collaborated with colleagues on **GitHub** and maintained 6 repositories
-* Utilized Cloud Computing services and Containers (**AWS** S3, ECS, Lambda, EventBridge) to automate data
-collection, resulting in a 90% increase in time efficiency
-* Investigated low quality data and identified issues using queries against **MySQL** and **Amazon Athena**
-* Worked with QA team to deliver data with high completeness
+* Developed web scrapers based on **Scrapy** to gather raw data from 5 delivery platforms. Processed the large-scale datasets comprising millions of records using **Python**, and delivered them to clients on a monthly basis
+* Utilized cloud computing services and containers (**AWS S3, ECS, Lambda, EventBridge**) to automate data collection, resulting in a 90% increase in time efficiency
+* Investigated low quality data, identified issues using queries against **MySQL** and **Amazon Athena** to resolve client requests
+* Collaborated with an Engineering team of 7 on **GitHub** across 6 repositories, and worked with cross-functional teams to deliver data with high completeness
 
 ```
 Operations Intern @ ShopBack | Sep 2020 - Jul 2021
