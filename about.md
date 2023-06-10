@@ -31,19 +31,19 @@ I am pursuing a **Master's degree in Computer Science** at **Northeastern Univer
 Data Engineer @ Dashmote | Jan 2022 - June 2022
 ```
 
-* Developed web scrapers based on **Scrapy** to gather raw data from 5 delivery platforms. Processed the large-scale datasets comprising millions of records using **Python**, and delivered them to clients on a monthly basis
+* Developed web scrapers based on **Scrapy** to gather raw data from 5 delivery platforms. Processed large-scale datasets comprising millions of records using **Python**, and delivered them to clients on a monthly basis
 * Utilized cloud computing services and containers (**AWS S3, ECS, Lambda, EventBridge**) to automate data collection, resulting in a 90% increase in time efficiency
 * Investigated low quality data, identified issues using queries against **MySQL** and **Amazon Athena** to resolve client requests
-* Collaborated with an Engineering team of 7 on **GitHub** across 6 repositories, and worked with cross-functional teams to deliver data with high completeness
+* Collaborated with an engineering team of 7 on **GitHub** across 6 repositories, and worked with cross-functional teams to deliver data with high completeness
 
 ```
 Operations Intern @ ShopBack | Sep 2020 - Jul 2021
 ```
 
-- Integrated **APIs** vis TUNE partner marketing platform to streamline data management
+- Integrated **APIs** via TUNE partner marketing platform to streamline data management
 - Constructed customized **JavaScript** in Google Tag Manager to support integration via tracking pixels and provided technical consultation to partners
-- Formulated **Python**-based automation tools to scrape external websites and provided data for business teams , supporting 1% weekly growth the partner numbers
-- Developed internal tools and documentation, provided training to internal teams on how to use the integrated system, resulting in a 92% decrease in support requests and 95% decrease in human error
+- Formulated **Python**-based automation tools to scrape external websites and provided data for business teams, supporting 1% weekly growth in partner numbers
+- Developed tools and documentations, provided training to internal teams on how to use the integrated system, resulting in a 92% decrease in support requests and 95% decrease in human error
 
 <br/>
 
