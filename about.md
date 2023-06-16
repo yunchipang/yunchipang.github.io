@@ -21,19 +21,19 @@ I am pursuing a **Master's degree in Computer Science** at **Northeastern Univer
 Data Engineer @ Dashmote | Jan 2022 - June 2022
 ```
 
-* Developed web scrapers based on Scrapy to gather raw data from 5+ delivery platforms. Processed large- scale datasets of 1M+ records using Python, Pandas, SpiderKeeper, Jupyter Notebook and AWS S3
-* Utilized AWS S3, ECS, Lambda and EventBridge to automate data collection, resulting in a 90% increase in time efficiency. Migrated deprecated projects to the new schema and monitored the results weekly
-* Investigated low-quality data and identified issues using queries against MySQL and Amazon Athena. Researched on Google Places API, conducted experiments and increased the accuracy by 9%
-* Collaborated with an engineering team of 7 and cross-functional teams on GitHub across 6 repositories
+* Developed web scrapers based on **Scrapy** to gather raw data from 5+ delivery platforms. Processed large-scale datasets of 1M+ records using **Python**, **Pandas**, **SpiderKeeper**, **Jupyter Notebook** and **AWS S3**
+* Utilized **AWS S3, ECS, Lambda** and **EventBridge** to automate data collection, resulting in a 90% increase in time efficiency. Migrated deprecated projects to the new schema and monitored the results weekly
+* Investigated low-quality data and identified issues using queries against **MySQL** and **Amazon Athena**. Researched on **Google Places API**, conducted experiments and increased the accuracy by 9%
+* Collaborated with an engineering team of 7 and cross-functional teams on **GitHub** across 6 repositories
 
 ```
 Operations Intern @ ShopBack | Sep 2020 - Jul 2021
 ```
 
-* Integrated TUNE Network API to assist merchant onboarding, setup Salesforce accounts for clients, queried order records using SQL and performed data manipulations using Pandas and Numpy
-* Initiated automation projects using Python, Google Sheets API, and hosted on Google Cloud Platform. Supported 1% weekly growth in partner numbers and achieved 98% decrease in support requests
-* Constructed JavaScript in Google Tag Manager to support merchant integration via tracking pixels. Provided technical consultation to merchants on Shopify, SHOPLINE, 91App and performed tracking tests
-* Assisted data collection using BeautifulSoup and Selenium, supported operations of 20+ merchants with programs deployed to AWS Lambda, resolved ad-hoc issues and designed systematic solutions
+* Integrated **TUNE Network API** to assist merchant onboarding, setup **Salesforce** accounts for clients, queried order records using **SQL** and performed data manipulations using **Pandas** and **Numpy**
+* Initiated automation projects using **Python**, **Google Sheets API**, and hosted on **Google Cloud Platform**. Supported 1% weekly growth in partner numbers and achieved 98% decrease in support requests
+* Constructed **JavaScript** in **Google Tag Manager** to support merchant integration via tracking pixels. Provided technical consultation to merchants on **Shopify**, **SHOPLINE**, **91App** and performed tracking tests
+* Assisted data collection using **BeautifulSoup** and **Selenium**, supported operations of 20+ merchants with programs deployed to **AWS Lambda**, resolved ad-hoc issues and designed systematic solutions
 * Worked collaboratively with Engineering, Customer Service, Marketing and Business Development teams to optimize and scale merchant operations. Monitored tracking reliability for 700+ merchants
 
 <br/>
