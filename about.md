@@ -41,7 +41,7 @@ Operations Intern @ ShopBack | Sep 2020 - Jul 2021
 #### **Skills**
 
 - Programming Languages: Python, Java, JavaScript, C, HTML, CSS
-- Frameworks/Libraries: React, React Native, Node.js, Express, Django, Flask, Scrapy, Selenium
+- Frameworks/Libraries: React, React Native, Node.js, Express, Spring Boot, Django, Flask, Scrapy, Selenium
 - Infrastructure: AWS, GCP, Docker
 - Database: MySQL, PostgreSQL, SQLite, MongoDB, Firebase
 - Tools: Bash, Zsh, Vim, Git, Postman
